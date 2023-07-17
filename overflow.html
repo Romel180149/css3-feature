@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 3px solid steelblue;
+            overflow: scroll;
+           overflow: auto;
+        }
+    /* #box-1{
+        overflow:auto ;
+        overflow-x: hidden;
+     } */ 
+     .ellipsis{
+        width: 200px;
+        border: 2px solid steelblue;
+        white-space: nowrap;
+        overflow: hidden;
+        /*text-overflow: ellipsis;*/
+        text-overflow: clip;
+     }
+    </style>
+</head>
+<body>
+    <header>
+        <p class="ellipsis">I am a serious learner.I am investing 6-8 hours every single day.No gap at all</p>
+    </header>
+    <section>
+        <div id="box-1" class="box">
+            <h3> My Text box 1 </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit sed impedit aut dolorem qui, ipsum magnam doloremque voluptatem nobis aspernatur possimus ex aliquam sint, eum officiis hic delectus accusamus omnis animi natus incidunt obcaecati laudantium iusto? Mollitia itaque impedit perspiciatis. Architecto cumque assumenda nemo molestiae numquam doloribus, velit eaque magni. Laudantium sunt eum earum mollitia quae corporis quo, voluptatum id soluta temporibus maxime consequuntur aliquam dicta nam aliquid odio expedita distinctio cumque, rerum assumenda iure suscipit nisi! Amet recusandae reiciendis possimus eveniet, laborum fugit eum veniam explicabo saepe temporibus ullam quae porro delectus, perferendis fugiat exercitationem nihil, blanditiis iste. Porro sequi neque voluptates aliquam, ducimus nihil est, fuga enim fugit tenetur quam accusamus repudiandae provident dolorem voluptatum, saepe deleniti incidunt. Dolore, odit rem. Veritatis aliquam inventore, rerum omnis fugiat sunt debitis iusto porro optio. Magni, repudiandae id. Autem velit, laboriosam cupiditate quaerat adipisci fugit ex, nulla incidunt saepe accusantium ut soluta praesentium beatae labore, tenetur officia. Eaque, voluptates omnis laboriosam quasi tempore amet reprehenderit sint, expedita possimus quo quia aspernatur quis at laborum facilis. Harum amet, veritatis dolore voluptate itaque quisquam ad, ex deserunt repellat eos explicabo tenetur, ipsa beatae. Quaerat pariatur neque dolor iste quod sapiente aspernatur qui recusandae.</p>
+        </div>
+        <div class="box">
+            <h3> My Text box 2 </h3>
+            <p>Laboriosam libero obcaecati eaque a rem ut nemo magnam quisquam exercitationem aspernatur, aperiam et quam, numquam illum eligendi odit corporis quos adipisci. Laudantium velit vitae incidunt eaque minus totam sunt iusto dolorem consequuntur ex eos ad itaque tempore ratione, aut facere delectus illo impedit tenetur saepe? Quo eos fugit pariatur vero molestiae libero aliquam numquam repudiandae nam odit, aperiam consequatur. Magnam tempora amet quae recusandae, eius similique ab autem quibusdam voluptatem eum excepturi error numquam esse! Natus sequi odio dolores dolorum eos, similique ratione qui a facilis velit omnis. Expedita, debitis cumque dolor delectus qui, iure, laborum porro nostrum soluta omnis sapiente optio quaerat illo tempora doloremque laudantium consequatur aut voluptas! Veniam eveniet in nesciunt optio tempora illum, libero, dolorem aut deleniti quaerat eius quasi vero officia! Nostrum hic inventore perferendis magnam dolores voluptas fuga repudiandae nisi autem libero consequuntur eos in ducimus mollitia illo consequatur officia consectetur unde commodi vero, quisquam voluptate? Ullam quibusdam velit, ad magni accusamus culpa earum vel, assumenda temporibus repellat ratione fugiat? Quis rerum, officia officiis consectetur eligendi quia recusandae sunt, rem accusantium maxime temporibus ipsum facere neque dicta, illo esse quas aliquam dolorem ut dignissimos. Cumque aliquam adipisci itaque molestiae id minus aperiam consequuntur.</p>
+        </div>
+        <div class="box">
+            <h3> text box 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sed dolorum sequi animi voluptas quibusdam neque. Cupiditate amet nostrum voluptatum?</p>
+        </div>
+    </section>
+</body>
+</html>
